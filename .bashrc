@@ -33,6 +33,7 @@ alias chrome="open -a 'Google Chrome'"
 alias ga='git add'
 alias gs='git status'
 alias gp='git push'
+alias gpoh='git push origin HEAD'
 alias gb='git branch'
 alias gco='git checkout'
 alias gf='git fetch'
