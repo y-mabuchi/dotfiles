@@ -26,6 +26,9 @@ alias ls='ls -G'
 # cd ..の省略
 alias ..='cd ..'
 
+# gnu-sed
+alias sed='gsed'
+
 # chrome
 alias chrome="open -a 'Google Chrome'"
 
