@@ -40,6 +40,8 @@ alias gb='git branch'
 alias gco='git checkout'
 alias gf='git fetch'
 alias gc='git commit'
+alias gl='git log'
+alias gd='git diff'
 alias gpoh='git push origin HEAD'
 alias gploh='git pull origin HEAD'
 
