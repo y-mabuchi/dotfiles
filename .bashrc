@@ -45,3 +45,9 @@ alias gd='git diff'
 alias gpoh='git push origin HEAD'
 alias gploh='git pull origin HEAD'
 
+gcre() {
+  git init && ga . && gs && gc -m "first commit"
+  gh repo create
+  gco -b develop;
+  git push -u origin develop;
+}
