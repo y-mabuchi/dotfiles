@@ -42,6 +42,7 @@ alias gf='git fetch'
 alias gc='git commit'
 alias gl='git log'
 alias gd='git diff'
+alias gcl='git config --list'
 alias gpoh='git push origin HEAD'
 alias gploh='git pull origin HEAD'
 
@@ -50,4 +51,16 @@ gcre() {
   gh repo create
   gco -b develop;
   git push -u origin develop;
+}
+
+function gm() {
+  git config --global user.name "y-mabuchi"
+  git config --global user.email mabu.you@gmail.com
+  git config --list
+}
+
+function gw() {
+  git config --global user.name "Yusuke-Mabuchi"
+  git config --global user.email mabuchi.y@cocoro-inc.net
+  git config --list
 }
