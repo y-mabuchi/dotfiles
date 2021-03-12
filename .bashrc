@@ -12,7 +12,8 @@ eval "$(anyenv init -)"
 
 # Alias
 # viでも強制的にvimを開く
-alias vi='vim'
+# alias vi='vim'
+alias vi='nvim'
 
 # シェルの再起動
 alias relogin='exec $SHELL -l'
