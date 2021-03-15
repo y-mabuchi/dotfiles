@@ -8,6 +8,7 @@ set incsearch
 set number
 set title
 syntax on
+colorscheme darcula
 
 " Mouse
 set mouse=a
@@ -20,3 +21,5 @@ if has('vim_starting')
   " ノーマルモード非点滅のブロックタイプ
   let &t_EI .= "\e[2 q"
 endif
+
+
