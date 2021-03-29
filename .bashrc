@@ -39,6 +39,7 @@ alias gs='git status'
 alias gp='git push'
 alias gb='git branch'
 alias gco='git checkout'
+alias gcod='git checkout develop'
 alias gf='git fetch'
 alias gc='git commit'
 alias gl='git log'
@@ -47,7 +48,7 @@ alias gcl='git config --list'
 alias gpoh='git push origin HEAD'
 alias gploh='git pull origin HEAD'
 
-gcre() {
+function gcre() {
   git init && ga . && gs && gc -m "first commit"
   gh repo create
   gco -b develop;
