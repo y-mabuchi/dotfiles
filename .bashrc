@@ -26,6 +26,7 @@ alias ls='ls -G'
 
 # cd ..の省略
 alias ..='cd ..'
+alias cdd='cd ~/dev'
 
 # gnu-sed
 alias sed='gsed'
@@ -40,6 +41,7 @@ alias gp='git push'
 alias gb='git branch'
 alias gco='git checkout'
 alias gcod='git checkout develop'
+alias gcom='git checkout main'
 alias gf='git fetch'
 alias gc='git commit'
 alias gl='git log'
@@ -66,3 +68,9 @@ function gw() {
   git config --global user.email mabuchi.y@cocoro-inc.net
   git config --list
 }
+
+# docker
+alias dcu='docker compose up'
+alias dcd='docker compose down'
+alias dcps='docker compose ps'
+
