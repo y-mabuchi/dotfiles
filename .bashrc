@@ -6,6 +6,9 @@ parse_git_branch() {
 
 export PS1="\u@\h \W\[\033[32m\]\$(parse_git_branch)\[\033[00m\] $ "
 
+# Git Completion
+source ~/.git-completion.bash
+
 # nodebrew
 # export PATH=$PATH:~/.nodebrew/current/bin/
 eval "$(anyenv init -)"
